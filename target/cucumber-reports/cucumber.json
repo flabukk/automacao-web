@@ -1,0 +1,674 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 13181438700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou no site \"https://www.ze.delivery/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ze.delivery/",
+                  "offset": 19
+                }
+              ],
+              "location": "CadastroUsuario.que_estou_no_site(String)"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Cadastrar usuário válido",
+        "description": "",
+        "id": "cadastro-de-usuario-no-sistema-do-zé-delivery;cadastrar-usuário-válido;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1403045600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroUsuario.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4347005800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Produtos.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1092935000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que informo maior idade",
+            "match": {
+              "location": "CadastroUsuario.que_informo_maior_idade()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3197913700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "eu acesso a pagina de cadastro",
+            "match": {
+              "location": "CadastroUsuario.eu_acesso_a_pagina_de_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2262795700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho o campo Nome e sobrenome com o valor \"Ze Delivery\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ze Delivery",
+                  "offset": 47
+                }
+              ],
+              "location": "CadastroUsuario.preencho_o_campo_Nome_e_sobrenome_com_o_valor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2348729600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#E preencho o campo E-mail com o valor \u003cemail\u003e"
+              }
+            ],
+            "line": 16,
+            "name": "preencho o campo E-mail com um valor de e-mail genérico",
+            "match": {
+              "location": "CadastroUsuario.preencho_o_campo_E_mail_com_um_valor_de_e_mail_genérico()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2381173300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "preencho o campo Senha com o valor \"Automacao001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automacao001",
+                  "offset": 36
+                }
+              ],
+              "location": "CadastroUsuario.preencho_o_campo_Senha_com_o_valor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2228495600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencho o campo CPF com o valor \"37366727059\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "37366727059",
+                  "offset": 34
+                }
+              ],
+              "location": "CadastroUsuario.preencho_o_campo_CPF_com_o_valor(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2210703200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencho o campo Celular com o valor \"11977454286\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11977454286",
+                  "offset": 38
+                }
+              ],
+              "location": "CadastroUsuario.preencho_o_campo_Celular_com_o_valor(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2204542200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencho o campo \u0027Qual a sua idade?\u0027 com o valor \"23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 50
+                }
+              ],
+              "location": "CadastroUsuario.preencho_o_campo_Qual_a_sua_idade_com_o_valor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2096218000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "aceito os termos",
+            "match": {
+              "location": "CadastroUsuario.aceito_os_termos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2110120200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "aceito as Notificações",
+            "match": {
+              "location": "CadastroUsuario.aceito_as_Notificações()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5468276800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "confirmo o cadastro",
+            "match": {
+              "location": "CadastroUsuario.confirmo_o_cadastro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2195642700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "é exibido a página inicial do sistema",
+            "match": {
+              "location": "CadastroUsuario.é_exibido_a_página_inicial_do_sistema()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1073262700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "eu verifico se o nome cadastrado é igual a \"Ze Delivery\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ze Delivery",
+                  "offset": 44
+                }
+              ],
+              "location": "CadastroUsuario.eu_verifico_se_o_nome_cadastrado_é_igual_a(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1059072400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "eu verifico se o telefone cadastrado é igual a \"11977454286\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11977454286",
+                  "offset": 48
+                }
+              ],
+              "location": "CadastroUsuario.eu_verifico_se_o_telefone_cadastrado_é_igual_a(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          },
+          {
+            "line": 10,
+            "name": "@Regressivo"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de Usuario no sistema do Zé Delivery",
+    "description": "Sendo eu um cliente do Zé delivery\r\nquero automatizar o cadastro de usuario",
+    "id": "cadastro-de-usuario-no-sistema-do-zé-delivery",
+    "keyword": "Funcionalidade",
+    "uri": "Cadastro.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@CadastroUsuario"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Consultar clima por cidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta",
+        "description": "",
+        "id": "consultar-dados-metereologicos;consultar-clima-por-cidade-e-verificar-se-o-campo-name-retorna-o-nome-da-cidade-informado-na-consulta;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4307072100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroUsuario.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4141332000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Produtos.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 3256152600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que eu realizo a chamada da api de consultar clima para a cidade \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 66
+                }
+              ],
+              "location": "ConsultarClima.que_eu_realizo_a_chamada_da_api_de_consultar_clima_para_a_cidade(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 569714600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu valido do ResponseBody o campo \"name\" igual a \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 35
+                },
+                {
+                  "val": "London",
+                  "offset": 50
+                }
+              ],
+              "location": "ConsultarClima.eu_valido_do_ResponseBody_o_campo_igual_a_cidade(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Regressivo"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Consultar clima por idCidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta",
+        "description": "",
+        "id": "consultar-dados-metereologicos;consultar-clima-por-idcidade-e-verificar-se-o-campo-name-retorna-o-nome-da-cidade-informado-na-consulta;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4256378700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroUsuario.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4380521500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Produtos.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1265385000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que eu realizo a chamada da api de consultar clima por ID cidade 2172797",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2172797",
+                  "offset": 65
+                }
+              ],
+              "location": "ConsultarClima.que_eu_realizo_a_chamada_da_api_de_consultar_clima_por_ID_cidade(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 14557000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu valido do ResponseBody o campo \"name\" igual a \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 35
+                },
+                {
+                  "val": "London",
+                  "offset": 50
+                }
+              ],
+              "location": "ConsultarClima.eu_valido_do_ResponseBody_o_campo_igual_a_cidade(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regressivo"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar dados metereologicos",
+    "description": "a partir de uma requisição do tipo GET\r\n\nContexto\n\tDado que eu quero consultar o clima de uma cidade",
+    "id": "consultar-dados-metereologicos",
+    "keyword": "Funcionalidade",
+    "uri": "ConsultarClima.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9142822700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou no site \"https://www.ze.delivery/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ze.delivery/",
+                  "offset": 19
+                }
+              ],
+              "location": "CadastroUsuario.que_estou_no_site(String)"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Cadastrar usuário válido",
+        "description": "",
+        "id": "validação-de-acessos-no-sistema-do-zé-delivery;cadastrar-usuário-válido;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1108536400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroUsuario.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4433787200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Produtos.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1091133700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que informo maior idade",
+            "match": {
+              "location": "CadastroUsuario.que_informo_maior_idade()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1068060100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "eu acesso a pagina de Login",
+            "match": {
+              "location": "CadastroUsuario.eu_acesso_a_pagina_de_Login()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5523278100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "realizo o acesso com o E-mail \"automacao1010@gmail.com\" e senha \"Automacao001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automacao1010@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "Automacao001",
+                  "offset": 65
+                }
+              ],
+              "location": "CadastroUsuario.realizo_o_acesso_com_o_E_mail_e_senha(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4025235200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "é exibido a página inicial do sistema",
+            "match": {
+              "location": "CadastroUsuario.é_exibido_a_página_inicial_do_sistema()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1057347600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu verifico se o e-mail cadastrado é igual a \"automacao1010@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automacao1010@gmail.com",
+                  "offset": 46
+                }
+              ],
+              "location": "CadastroUsuario.eu_verifico_se_o_e_mail_cadastrado_é_igual_a(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Login"
+          },
+          {
+            "line": 10,
+            "name": "@Regressivo"
+          }
+        ]
+      }
+    ],
+    "name": "Validação de acessos no sistema do Zé Delivery",
+    "description": "Sendo eu um cliente do Zé delivery\r\nquero automatizar os acessos ao sistema",
+    "id": "validação-de-acessos-no-sistema-do-zé-delivery",
+    "keyword": "Funcionalidade",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Login"
+      }
+    ]
+  }
+]

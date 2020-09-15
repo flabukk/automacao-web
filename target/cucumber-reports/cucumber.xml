@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="100.502685">
+<testcase classname="Cadastro de Usuario no sistema do Zé Delivery" name="Cadastrar usuário válido" time="50.861371">
+<system-out><![CDATA[Dado que estou no site "https://www.ze.delivery/"...........................passed
+E que informo maior idade...................................................passed
+Quando eu acesso a pagina de cadastro.......................................passed
+E preencho o campo Nome e sobrenome com o valor "Ze Delivery"...............passed
+E preencho o campo E-mail com um valor de e-mail genérico...................passed
+E preencho o campo Senha com o valor "Automacao001".........................passed
+E preencho o campo CPF com o valor "37366727059"............................passed
+E preencho o campo Celular com o valor "11977454286"........................passed
+E preencho o campo 'Qual a sua idade?' com o valor "23".....................passed
+E aceito os termos..........................................................passed
+E aceito as Notificações....................................................passed
+E confirmo o cadastro.......................................................passed
+Então é exibido a página inicial do sistema.................................passed
+E eu verifico se o nome cadastrado é igual a "Ze Delivery"..................passed
+E eu verifico se o telefone cadastrado é igual a "11977454286"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Consultar dados metereologicos" name="Consultar clima por cidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta" time="12.274271">
+<system-out><![CDATA[Quando que eu realizo a chamada da api de consultar clima para a cidade "London".passed
+E eu valido do ResponseBody o campo "name" igual a "London".................passed
+]]></system-out>
+</testcase>
+<testcase classname="Consultar dados metereologicos" name="Consultar clima por idCidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta" time="9.916842">
+<system-out><![CDATA[Quando que eu realizo a chamada da api de consultar clima por ID cidade 2172797.passed
+E eu valido do ResponseBody o campo "name" igual a "London".................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validação de acessos no sistema do Zé Delivery" name="Cadastrar usuário válido" time="27.450201">
+<system-out><![CDATA[Dado que estou no site "https://www.ze.delivery/"...........................passed
+E que informo maior idade...................................................passed
+Quando eu acesso a pagina de Login..........................................passed
+E realizo o acesso com o E-mail "automacao1010@gmail.com" e senha "Automacao001".passed
+Então é exibido a página inicial do sistema.................................passed
+E eu verifico se o e-mail cadastrado é igual a "automacao1010@gmail.com"....passed
+]]></system-out>
+</testcase>
+</testsuite>
