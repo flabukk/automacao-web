@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.runner;
+package br.com.viaVarejo.runner;
 
 import org.junit.runner.RunWith;
 
@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		//features = {"src/resources/features/ConsultarClima.feature"},
 		features = {"src/resources/features/"},
-		glue = {"br.com.ZeDelivery.steps"}, 
+		glue = {"br.com.viaVarejo.steps"}, 
 		monochrome = false, 
 			plugin = {"html:target/cucumber-html-report",
 					"json:target/cucumber-reports/cucumber.json",

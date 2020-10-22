@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.support.browser.exception;
+package br.com.viaVarejo.support.browser.exception;
 
 /**
  * 

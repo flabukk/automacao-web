@@ -1,10 +1,10 @@
-package br.com.ZeDelivery.support.browser;
+package br.com.viaVarejo.support.browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import br.com.ZeDelivery.support.browser.exception.BrowserException;
+import br.com.viaVarejo.support.browser.exception.BrowserException;
 
 
 

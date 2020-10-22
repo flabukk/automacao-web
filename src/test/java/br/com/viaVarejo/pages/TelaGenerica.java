@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.pages;
+package br.com.viaVarejo.pages;
 
 import java.util.List;
 

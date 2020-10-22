@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.steps;
+package br.com.viaVarejo.steps;
 
 
 import java.io.File;
@@ -9,12 +9,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import br.com.ZeDelivery.pages.TelaCadastro;
-import br.com.ZeDelivery.pages.TelaHome;
-import br.com.ZeDelivery.pages.TelaInicial;
-import br.com.ZeDelivery.pages.TelaLogin;
-import br.com.ZeDelivery.support.Aplicacao;
-import br.com.ZeDelivery.support.TipoOpcao;
+import br.com.viaVarejo.pages.TelaCadastro;
+import br.com.viaVarejo.pages.TelaHome;
+import br.com.viaVarejo.pages.TelaInicial;
+import br.com.viaVarejo.pages.TelaLogin;
+import br.com.viaVarejo.support.Aplicacao;
+import br.com.viaVarejo.support.TipoOpcao;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;

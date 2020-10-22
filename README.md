@@ -30,9 +30,9 @@
 		
 	3 - No Build do projeto	
 		- Executar: 
-					Botão direito na pasta principal do Projeto >> Build Path >> Configure Build Path >> Alterar para JDK
-					Botão direito na pasta principal do Projeto >> Run As >> Maven Clean
-					Botão direito na pasta principal do Projeto >> Run As >> Maven Install
+		  Botão direito na pasta principal do Projeto >> Build Path >> Configure Build Path >> Alterar para JDK
+		  Botão direito na pasta principal do Projeto >> Run As >> Maven Clean
+		  Botão direito na pasta principal do Projeto >> Run As >> Maven Install
 					
 
 #Artefatos de execução

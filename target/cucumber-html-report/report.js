@@ -159,7 +159,7 @@ formatter.match({
   "location": "CadastroUsuario.que_estou_no_site(String)"
 });
 formatter.result({
-  "duration": 13181438700,
+  "duration": 9254920600,
   "status": "passed"
 });
 formatter.scenario({
@@ -275,14 +275,14 @@ formatter.match({
   "location": "CadastroUsuario.que_informo_maior_idade()"
 });
 formatter.result({
-  "duration": 1092935000,
+  "duration": 1507329100,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.eu_acesso_a_pagina_de_cadastro()"
 });
 formatter.result({
-  "duration": 3197913700,
+  "duration": 3396706800,
   "status": "passed"
 });
 formatter.match({
@@ -295,14 +295,14 @@ formatter.match({
   "location": "CadastroUsuario.preencho_o_campo_Nome_e_sobrenome_com_o_valor(String)"
 });
 formatter.result({
-  "duration": 2262795700,
+  "duration": 2417706200,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.preencho_o_campo_E_mail_com_um_valor_de_e_mail_genérico()"
 });
 formatter.result({
-  "duration": 2348729600,
+  "duration": 2383773700,
   "status": "passed"
 });
 formatter.match({
@@ -315,7 +315,7 @@ formatter.match({
   "location": "CadastroUsuario.preencho_o_campo_Senha_com_o_valor(String)"
 });
 formatter.result({
-  "duration": 2381173300,
+  "duration": 2425060000,
   "status": "passed"
 });
 formatter.match({
@@ -328,7 +328,7 @@ formatter.match({
   "location": "CadastroUsuario.preencho_o_campo_CPF_com_o_valor(String)"
 });
 formatter.result({
-  "duration": 2228495600,
+  "duration": 2227694200,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +341,7 @@ formatter.match({
   "location": "CadastroUsuario.preencho_o_campo_Celular_com_o_valor(String)"
 });
 formatter.result({
-  "duration": 2210703200,
+  "duration": 2219471700,
   "status": "passed"
 });
 formatter.match({
@@ -354,35 +354,35 @@ formatter.match({
   "location": "CadastroUsuario.preencho_o_campo_Qual_a_sua_idade_com_o_valor(String)"
 });
 formatter.result({
-  "duration": 2204542200,
+  "duration": 2197487400,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.aceito_os_termos()"
 });
 formatter.result({
-  "duration": 2096218000,
+  "duration": 2116004800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.aceito_as_Notificações()"
 });
 formatter.result({
-  "duration": 2110120200,
+  "duration": 2116044500,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.confirmo_o_cadastro()"
 });
 formatter.result({
-  "duration": 5468276800,
+  "duration": 8074156300,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.é_exibido_a_página_inicial_do_sistema()"
 });
 formatter.result({
-  "duration": 2195642700,
+  "duration": 2377216300,
   "status": "passed"
 });
 formatter.match({
@@ -395,7 +395,7 @@ formatter.match({
   "location": "CadastroUsuario.eu_verifico_se_o_nome_cadastrado_é_igual_a(String)"
 });
 formatter.result({
-  "duration": 1073262700,
+  "duration": 1064584100,
   "status": "passed"
 });
 formatter.match({
@@ -408,15 +408,15 @@ formatter.match({
   "location": "CadastroUsuario.eu_verifico_se_o_telefone_cadastrado_é_igual_a(String)"
 });
 formatter.result({
-  "duration": 1059072400,
+  "duration": 1253777300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1403045600,
+  "duration": 7326210100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4347005800,
+  "duration": 1418093700,
   "status": "passed"
 });
 formatter.uri("ConsultarClima.feature");
@@ -522,7 +522,7 @@ formatter.match({
   "location": "ConsultarClima.que_eu_realizo_a_chamada_da_api_de_consultar_clima_para_a_cidade(String)"
 });
 formatter.result({
-  "duration": 3256152600,
+  "duration": 4486960800,
   "status": "passed"
 });
 formatter.match({
@@ -539,15 +539,15 @@ formatter.match({
   "location": "ConsultarClima.eu_valido_do_ResponseBody_o_campo_igual_a_cidade(String,String)"
 });
 formatter.result({
-  "duration": 569714600,
+  "duration": 493481300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4307072100,
+  "duration": 4393692100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4141332000,
+  "duration": 4311237300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -641,7 +641,7 @@ formatter.match({
   "location": "ConsultarClima.que_eu_realizo_a_chamada_da_api_de_consultar_clima_por_ID_cidade(int)"
 });
 formatter.result({
-  "duration": 1265385000,
+  "duration": 1243633600,
   "status": "passed"
 });
 formatter.match({
@@ -658,15 +658,15 @@ formatter.match({
   "location": "ConsultarClima.eu_valido_do_ResponseBody_o_campo_igual_a_cidade(String,String)"
 });
 formatter.result({
-  "duration": 14557000,
+  "duration": 24020900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4256378700,
+  "duration": 4214536100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4380521500,
+  "duration": 4346011500,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -775,7 +775,7 @@ formatter.match({
   "location": "CadastroUsuario.que_estou_no_site(String)"
 });
 formatter.result({
-  "duration": 9142822700,
+  "duration": 6217943300,
   "status": "passed"
 });
 formatter.scenario({
@@ -832,14 +832,14 @@ formatter.match({
   "location": "CadastroUsuario.que_informo_maior_idade()"
 });
 formatter.result({
-  "duration": 1091133700,
+  "duration": 1088277800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.eu_acesso_a_pagina_de_Login()"
 });
 formatter.result({
-  "duration": 1068060100,
+  "duration": 1073114700,
   "status": "passed"
 });
 formatter.match({
@@ -856,14 +856,14 @@ formatter.match({
   "location": "CadastroUsuario.realizo_o_acesso_com_o_E_mail_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 5523278100,
+  "duration": 5587954800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuario.é_exibido_a_página_inicial_do_sistema()"
 });
 formatter.result({
-  "duration": 4025235200,
+  "duration": 3315396500,
   "status": "passed"
 });
 formatter.match({
@@ -876,15 +876,15 @@ formatter.match({
   "location": "CadastroUsuario.eu_verifico_se_o_e_mail_cadastrado_é_igual_a(String)"
 });
 formatter.result({
-  "duration": 1057347600,
+  "duration": 1073110900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1108536400,
+  "duration": 4295360800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4433787200,
+  "duration": 3023086500,
   "status": "passed"
 });
 });

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="100.502685">
-<testcase classname="Cadastro de Usuario no sistema do Zé Delivery" name="Cadastrar usuário válido" time="50.861371">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="102.964056">
+<testcase classname="Cadastro de Usuario no sistema do Zé Delivery" name="Cadastrar usuário válido" time="53.776237">
 <system-out><![CDATA[Dado que estou no site "https://www.ze.delivery/"...........................passed
 E que informo maior idade...................................................passed
 Quando eu acesso a pagina de cadastro.......................................passed
@@ -18,17 +18,17 @@ E eu verifico se o nome cadastrado é igual a "Ze Delivery"..................pas
 E eu verifico se o telefone cadastrado é igual a "11977454286"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Consultar dados metereologicos" name="Consultar clima por cidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta" time="12.274271">
+<testcase classname="Consultar dados metereologicos" name="Consultar clima por cidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta" time="13.685372">
 <system-out><![CDATA[Quando que eu realizo a chamada da api de consultar clima para a cidade "London".passed
 E eu valido do ResponseBody o campo "name" igual a "London".................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Consultar dados metereologicos" name="Consultar clima por idCidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta" time="9.916842">
+<testcase classname="Consultar dados metereologicos" name="Consultar clima por idCidade e verificar se o campo NAME retorna o nome da Cidade informado na consulta" time="9.828202">
 <system-out><![CDATA[Quando que eu realizo a chamada da api de consultar clima por ID cidade 2172797.passed
 E eu valido do ResponseBody o campo "name" igual a "London".................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validação de acessos no sistema do Zé Delivery" name="Cadastrar usuário válido" time="27.450201">
+<testcase classname="Validação de acessos no sistema do Zé Delivery" name="Cadastrar usuário válido" time="25.674245">
 <system-out><![CDATA[Dado que estou no site "https://www.ze.delivery/"...........................passed
 E que informo maior idade...................................................passed
 Quando eu acesso a pagina de Login..........................................passed

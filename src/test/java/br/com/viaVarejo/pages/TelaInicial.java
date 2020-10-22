@@ -1,10 +1,10 @@
-package br.com.ZeDelivery.pages;
+package br.com.viaVarejo.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import br.com.ZeDelivery.support.TipoOpcao;
+import br.com.viaVarejo.support.TipoOpcao;
 
 
 

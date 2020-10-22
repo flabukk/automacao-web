@@ -1,8 +1,8 @@
-package br.com.ZeDelivery.steps;
+package br.com.viaVarejo.steps;
 
 
 
-import br.com.ZeDelivery.support.ApiOpenWeather;
+import br.com.viaVarejo.support.ApiOpenWeather;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Quando;

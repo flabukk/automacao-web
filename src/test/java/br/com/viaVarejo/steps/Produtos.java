@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.steps;
+package br.com.viaVarejo.steps;
 
 
 import java.io.File;
@@ -9,7 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import br.com.ZeDelivery.support.Aplicacao;
+import br.com.viaVarejo.support.Aplicacao;
 import cucumber.api.PendingException;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;

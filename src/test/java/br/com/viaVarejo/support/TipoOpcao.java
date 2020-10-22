@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.support;
+package br.com.viaVarejo.support;
 
 public enum TipoOpcao {
 

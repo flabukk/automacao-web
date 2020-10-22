@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.support;
+package br.com.viaVarejo.support;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import br.com.ZeDelivery.support.browser.WebDriverFactory;
+import br.com.viaVarejo.support.browser.WebDriverFactory;
 
 
 

@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.pages;
+package br.com.viaVarejo.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

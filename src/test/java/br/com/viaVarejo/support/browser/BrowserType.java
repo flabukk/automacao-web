@@ -1,4 +1,4 @@
-package br.com.ZeDelivery.support.browser;
+package br.com.viaVarejo.support.browser;
 
 
 public enum BrowserType {
