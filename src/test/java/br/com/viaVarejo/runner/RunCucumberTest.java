@@ -9,14 +9,14 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		//features = {"src/resources/features/ConsultarClima.feature"},
+		//features = {"src/resources/features/PesquisarQA.feature"},
 		features = {"src/resources/features/"},
 		glue = {"br.com.viaVarejo.steps"}, 
 		monochrome = false, 
 			plugin = {"html:target/cucumber-html-report",
 					"json:target/cucumber-reports/cucumber.json",
 				  "junit:target/cucumber-reports/cucumber.xml"},
-		tags = {"@Regressivo"},
+		tags = {"@PesquisarQA"},
 		snippets = SnippetType.CAMELCASE, 
 		dryRun = false,
 		strict = false)

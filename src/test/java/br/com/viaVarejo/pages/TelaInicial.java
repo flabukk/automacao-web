@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import br.com.viaVarejo.support.TipoOpcao;
-
-
 
 public class TelaInicial extends BasePage{
 	private WebElement webElement;
@@ -23,33 +20,12 @@ public class TelaInicial extends BasePage{
 		return this;
 	}
 	
-	public TelaInicial maiorIdade(TipoOpcao opcao) {
+	public TelaInicial selecionarMenu(String menu) {
 		telaGenerica.aguardarTelaCarregada(TIME_OUT);
-		String escolha = "age-gate-button-yes";
-		if(opcao.getOpcao().equals("N")) {
-			escolha = "age-gate-button-no";
-		}
-				
-		webElement = this.driver.findElement(By.id(escolha));
+		webElement = this.driver.findElement(By.xpath("//li/a[contains(text(),'"+menu+"')]"));
 		webElement.click();
 		 return this;
 	}
 	
-	public TelaInicial clicarBtnEntrar(){
-		telaGenerica.aguardarTelaCarregada(TIME_OUT);
-		webElement = this.driver.findElement(By.id("welcome-button-sign-in"));
-		webElement.click();
-		return this;
-	}
-	
-	public TelaInicial clicarLinkcriarUmaConta(){
-		telaGenerica.aguardarTelaCarregada(TIME_OUT);
-		webElement = this.driver.findElement(By.id("create-account-link"));
-		telaGenerica.clicarJS(webElement);
 		
-		return this;
-	}
-	
-	
-	
 }

@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.ZeDelivery</groupId>
+  <groupId>br.com.viaVarejo</groupId>
   <artifactId>automacao-cucumber</artifactId>
   <version>0.0.1-SNAPSHOT</version>  
   <properties>
@@ -139,7 +139,7 @@
 			        <generatedHtmlReportDirectory>${project.build.directory}/generated-report</generatedHtmlReportDirectory>
 			   		<customParameters>
 	      				<Custom_Parameter>Relatório Testes automatizados</Custom_Parameter>
-	       				<Custom_URL>https://www.ze.delivery/</Custom_URL>
+	       				<Custom_URL>https://bit.ly/3jOMrR9</Custom_URL>
 	        			<_Text>Este é um relatório das execuções dos testes automatizados!</_Text>
   				    </customParameters>
 			   
