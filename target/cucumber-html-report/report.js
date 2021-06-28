@@ -50,7 +50,7 @@ formatter.match({
   "location": "PesquisarQA.queEuAcesseAPáginaDaVVTest()"
 });
 formatter.result({
-  "duration": 8588207700,
+  "duration": 16938741100,
   "status": "passed"
 });
 formatter.match({
@@ -63,25 +63,25 @@ formatter.match({
   "location": "PesquisarQA.acesseOMenu(String)"
 });
 formatter.result({
-  "duration": 2795519400,
+  "duration": 4223381300,
   "status": "passed"
 });
 formatter.match({
   "location": "PesquisarQA.euPreencherTodosOsCamposObrigatórios()"
 });
 formatter.result({
-  "duration": 16639408900,
+  "duration": 16843164400,
   "status": "passed"
 });
 formatter.match({
   "location": "PesquisarQA.deveSerDirecionadoParaUmaPáginaDeSucesso()"
 });
 formatter.result({
-  "duration": 2159357700,
+  "duration": 2272327800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1026241000,
+  "duration": 829726500,
   "status": "passed"
 });
 });

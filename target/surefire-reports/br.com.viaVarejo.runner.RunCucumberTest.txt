@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.viaVarejo.runner.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.649 sec - in br.com.viaVarejo.runner.RunCucumberTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.663 sec - in br.com.viaVarejo.runner.RunCucumberTest

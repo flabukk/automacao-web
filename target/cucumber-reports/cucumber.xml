@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.208735">
-<testcase classname="Pesquisa com o QA" name="Preencher pesquisa com dados obrigatórios válidos" time="31.208735">
-<system-out><![CDATA[Dado que eu acesse a página da VV Test......................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.107341">
+    <testcase classname="Pesquisa com o QA" name="Preencher pesquisa com dados obrigatórios válidos" time="41.107341">
+        <system-out><![CDATA[Dado que eu acesse a página da VV Test......................................passed
 E acesse o menu "Pesquisa – QA".............................................passed
 Quando eu preencher todos os campos obrigatórios............................passed
 Então deve ser direcionado para uma página de sucesso.......................passed
 ]]></system-out>
-</testcase>
+    </testcase>
 </testsuite>
