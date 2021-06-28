@@ -1,5 +1,5 @@
 #cucumber--generated-report-Selenium
-	Este projeto rodará o cucumber com selenium
+	Este projeto executa no cucumber com selenium
 		- Automação WEB
 
 #Pré condições

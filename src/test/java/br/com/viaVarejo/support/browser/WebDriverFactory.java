@@ -22,6 +22,8 @@ public class WebDriverFactory {
 	
 	final static String CHROME = "chrome";
 	
+	final static String EDGE = "edge";
+	
 	private static WebDriver driver;	
 	
 	

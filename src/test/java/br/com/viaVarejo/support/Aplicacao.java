@@ -20,7 +20,6 @@ public class Aplicacao {
 	
 
 	public static WebDriver abrirAplicacao() throws Exception{
-		//encerrarProcesso("chromedriver");
 		webDriver = WebDriverFactory.getWebDriver("chrome");
 		webDriverWait = new WebDriverWait(webDriver, TIME_OUT);
 		webDriver.manage().window().maximize();

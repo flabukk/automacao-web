@@ -8,6 +8,10 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
  
 
+/**
+ * @author Flavio Pacheco
+ *
+ */
 public class Screenshot{
       public static void tirar(WebDriver driver, String arquivo){
             File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

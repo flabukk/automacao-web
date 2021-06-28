@@ -10,6 +10,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * @author Flavio Pacheco
+ *
+ */
 public class TelaGenerica extends BasePage{
 	
 	public TelaGenerica(WebDriver driver) {

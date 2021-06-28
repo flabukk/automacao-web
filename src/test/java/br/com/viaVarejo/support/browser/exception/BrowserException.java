@@ -4,7 +4,7 @@ package br.com.viaVarejo.support.browser.exception;
  * 
  * Name: {@link BrowserException}
  * 
- * Prop�sito: Exception
+ * Proposito: Exception
  
  */
 public class BrowserException extends RuntimeException {

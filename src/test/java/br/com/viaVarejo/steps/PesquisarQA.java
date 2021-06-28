@@ -21,6 +21,10 @@ import cucumber.api.java.pt.Quando;
 
 
 
+/**
+ * @author Flavio Pacheco
+ *
+ */
 public class PesquisarQA {
 	
 	protected static WebDriver driver;	

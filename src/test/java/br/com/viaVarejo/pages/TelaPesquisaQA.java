@@ -10,6 +10,10 @@ import org.openqa.selenium.support.ui.Select;
 import br.com.viaVarejo.support.Generator;
 
 
+/**
+ * @author Flavio Pacheco
+ *
+ */
 public class TelaPesquisaQA extends BasePage{
 	private WebElement webElement;
 	private TelaGenerica telaGenerica;

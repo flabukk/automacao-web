@@ -7,6 +7,10 @@ import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
 
 
+/**
+ * @author Flavio Pacheco
+ *
+ */
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		//features = {"src/resources/features/PesquisarQA.feature"},

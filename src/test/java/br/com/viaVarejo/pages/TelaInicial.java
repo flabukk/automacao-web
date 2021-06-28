@@ -5,6 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
+/**
+ * @author Flavio Pacheco
+ *
+ */
 public class TelaInicial extends BasePage{
 	private WebElement webElement;
 	private final int TIME_OUT = 30;
